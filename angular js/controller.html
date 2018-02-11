@@ -1,0 +1,21 @@
+<html>
+<head>
+<script src="angular.min.js"></script>
+
+<script>
+ angular.module("mod",[]).controller("con1",function($scope){
+$scope.name= "karthi";
+$scope.message= "welcome";
+});
+</script>
+</head>
+<body ng-app="mod" style="background-image:url('m_10.jpg')">
+<div ng-controller="con1">
+name: <input type="text" ng-model="name"><br><br>
+lastname: <input type="text" ng-model="name1"><br><br>
+
+<p>hello {{name}} {{message}} {{name1}} </p>
+</div>
+</body>
+</
+</html>
